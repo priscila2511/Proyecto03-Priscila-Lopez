@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="Priscila López">
+    <link rel="stylesheet" href="assent/css/styles.css">
+    <title>Profucto.Technological Work</title>
+</head>
+<body>
+
+    <div> <!--este es el div principal quitar por si falla-->
+
+        <div id="inicio">
+            
+            <svg width="420" height="120" xmlns="http://www.w3.org/2000/svg">
+
+                <!-- Círculo -->
+                <circle cx="60" cy="60" r="40" fill="black"/>
+                <circle cx="60" cy="60" r="20" fill="white"/> 
+
+                <!-- Texto -->
+                <text x="120" y="70"
+                    fill="black">
+                    Technological Work
+                </text>
+            </svg>
+           
+            <header>
+                <h3>Menú</h3>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="formulario.html">Formulario</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <audio controls autoplay muted>
+                <source src="assent/audio/musica.mpeg" type="audio/mpeg">
+                <source src="assent/audio/musica.ogg.ogg" type="audio/ogg">
+                Tu computadora no pudo ejecutar el audio
+            </audio>
+        </div>
+
+        <br><br>
+        <div class="principal">
+            <dl>
+                <h1 class="titulo">Productos</h1>
+                <div class="texto">
+                    <video class="video" autoplay muted controls>
+                        <source src="assent/video/acer.mp4" type="video/mp4">
+                        <source src="assent/video/acer-webm.webm" type="video/webm">
+                        tu computadora no pudo ejecutar este video
+                    </video>
+                    <h4 class="tamaño">Se muestra el diseño de la computadora Acer</h4>
+                    <td>Acer</td> <!--por el momento asi -->
+                    <dd>Son equipos versátiles diseñados para el trabajo diario, el estudio o el entretenimiento.</dd>
+                    <title>video Acer donde se muestra el tipo de computadora</title>
+                </div>
+
+                <div  class="texto">
+                    <video class="video" autoplay muted controls>
+                        <source src="assent/video/hp.mp4" type="video/mp4">
+                        <source src="assent/video/hp-webm.webm" type="video/webm">
+                        tu computadora no pudo ejecutar este video
+                    </video>
+                    <h4 class="tamaño">Se muestra el diseño de la computadora HP</h4>
+                    <td>HP</td>
+                    <dd>Son reconocidas por ser ligeras, con acabados metálicos o de plástico resistente con apariencia sofisticada, y baterías optimizadas para durar todo el día.</dd>
+                    <title>video HP donde se muestra el tipo de computadora</title>
+                   
+                </div>
+
+                <div  class="texto">
+                    <video class="video" autoplay muted controls>
+                        <source src="assent/video/lenovo.mp4" type="video/mp4">
+                        <source src="assent/video/lenovo-webm.webm" type="video/webm">
+                        tu computadora no pudo ejecutar este video
+                    </video>
+                    <h4 class="tamaño">Se muestra el diseño de la computadora Lenovo</h4>
+                    <td>Lenovo</td>
+                    <dd>Equipos de alta potencia orientados al gaming y procesamiento gráfico avanzado.</dd>
+
+                </div>
+            </dl>
+            <br><br>
+        </div>
+
+        <br><br>
+        <div id="tabla2">
+
+                <table border="1"> <!--la tabla de los precio con la imagen-->
+                    <thead>
+                        <tr>
+                            <th>Imagen</th>
+                            <th>Nombre</th>
+                            <th>Precio</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td class="td"><img class="img" src="assent/imagen/acer.png" alt="imagen acer"></td>
+                            <td>Acer</td>
+                            <td class="precio">350000</td>
+                        </tr>
+
+                        <tr>
+                            <td><img class="img" src="assent/imagen/hp.jpg" alt="imagen hp"></td>
+                            <td>HP</td>
+                            <td class="precio">420000</td>
+                        </tr>
+
+                        <tr>
+                            <td><img class="img" src="assent/imagen/lenovo.jpeg" alt="imagen lenovo"></td>
+                            <td>Lenovo</td>
+                            <td class="precio">580000</td>
+                        </tr>
+                            
+                    </tbody>
+
+                    <tfoot>
+                        <td class="td2" colspan="3" font-size: 16px;">Computers</td>
+                    </tfoot>
+
+                </table>
+
+        </div>
+
+        <br><br>
+        <div id="caja">
+            <footer> 
+                <p>&copy;2026 Technological Work - Todos los derechos reservados.</p> 
+            </footer>
+        </div>
+
+    </div>
+    
+</body>
+</html>
